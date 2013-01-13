@@ -1,7 +1,7 @@
 /* =Typography
 -----------------------------------------------------------------------------*/
 body {
-	background: url(../img/background.png) repeat #ccc; 
+	background: url(../img/background.jpg) repeat #ccc; 
 }
 	
 /* =Links
@@ -15,7 +15,10 @@ body {
 	padding: 0 10px;
 	margin: 24px auto;
 }
-
+.logo {
+  background-image: url(../img/logo.png);
+  height: 100px;
+}
 
 /* =Header
 -----------------------------------------------------------------------------*/
