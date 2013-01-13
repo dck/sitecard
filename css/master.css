@@ -1,0 +1,61 @@
+/* =Typography
+-----------------------------------------------------------------------------*/
+body {
+	background: url(../img/background.png) repeat #ccc; 
+}
+	
+/* =Links
+-----------------------------------------------------------------------------*/
+
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+#page {
+	width: 940px;
+	padding: 0 10px;
+	margin: 24px auto;
+}
+
+
+/* =Header
+-----------------------------------------------------------------------------*/
+
+
+/* =Nav
+-----------------------------------------------------------------------------*/
+
+/* =Misc
+-----------------------------------------------------------------------------*/
+
+#fb-button {
+  background-color: #BE93BE;
+  color: #ffffff;
+  position: fixed;
+  top: 50%;
+  left: -9px;
+  float: none;
+  padding: 17px 15px 12px;
+  z-index: 100;
+  -moz-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  border-radius: 8px 8px 8px 8px;
+  opacity: 0.8;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+#fb-button:hover {
+  left: -6px;
+  opacity: 1;
+}
+
+
+/* =Footer
+-----------------------------------------------------------------------------*/
