@@ -16,6 +16,16 @@ body {
 	margin: 24px auto;
 }
 
+.content {
+  height: auto;
+  color: #1c1c1c;
+  font-size: 24px;
+  padding: 20px;
+  line-height:26px;
+}
+
+
+
 .navbutton {
   color: #fff;
   text-align: center;
@@ -59,7 +69,7 @@ header {
   background-color: #BE93BE;
   color: #ffffff;
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: -9px;
   float: none;
   padding: 17px 15px 12px;
@@ -87,3 +97,12 @@ header {
 
 /* =Footer
 -----------------------------------------------------------------------------*/
+footer {
+  background-color: #21201E;
+  padding: 5px;
+  font-size: 14px;
+  color: #c9c9c9;
+  text-align: center;
+  margin: 0px;
+
+}
