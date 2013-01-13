@@ -6,21 +6,50 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<link rel="stylesheet" type="text/css" href="css/kube.css" /> 	
+	<link rel="stylesheet" type="text/css" href="css/master.css" /> 
 	<link rel="stylesheet" type="text/css" href="css/style.css" /> 			
 	
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->		
+	<![endif]-->
+	<script>
+		var testBlocks = document.getElementsByClassName("test");
+		for(var i = 0; i<testBlocks.length; i++)
+		{
+			var bgcolor = document.defaultView.getComputedStyle(testBlocks[i], "").getPropertyValue("background-color");
+
+			if (bgcolor == "" || bgcolor == "transparent")
+			{
+				testBlocks[i].style.backgroundColor = "#"+((1<<24)*Math.random()|0).toString(16);
+			}
+		}
+	</script>	
 
 </head>
 <body>
-
-<a id="fb-button" href="#" class ="test">
+	<a id="fb-button" href="#" class ="test">
         Сделать заказ
-</a>
-
-<div class="test">d
-	</div>
+	</a>
+	<div id="page">
+		<div class="row">
+			<div class="half centered text-centered test">
+			<h1>Half</h1>
+			</div>
+			<hr>
+		</div>
+		<div class="row split text-centered">
+			<div class="third menu test">
+				<h2>Мы</h2>
+			</div>
+			<div class="third menu test">
+				<h2>Наше</h2>
+			</div>
+			<div class="third menu test">
+				<h2>О нас</h2>
+			</div>
+		</div>
+	</div>	
 <script>
 	var testBlocks = document.getElementsByClassName("test");
 	for(var i = 0; i<testBlocks.length; i++)
