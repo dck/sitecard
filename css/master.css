@@ -46,6 +46,18 @@ header {
     margin-left: 20px;
 }
 
+#links-area {
+    color: #373737;
+    font-size: 23px;
+    list-style: none outside none;
+    margin-top: 60px;
+}
+
+#links-area li {
+  float: left;
+  margin-left: 120px;
+}
+
 
 /* =Nav
 -----------------------------------------------------------------------------*/
