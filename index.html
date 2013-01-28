@@ -42,37 +42,9 @@
 	</div>
 	<!--	
 
-
-	<a id="fb-button" href="#">
-        Сделать заказ
-	</a>
-
-
 	<footer>
 		(C) 2013 
 	</footer>
  -->
-
-
-
-
-
-
-
-
-
-
-<script>
-	var testBlocks = document.getElementsByClassName("test");
-	for(var i = 0; i<testBlocks.length; i++)
-	{
-		var bgcolor = document.defaultView.getComputedStyle(testBlocks[i], "").getPropertyValue("background-color");
-
-		if (bgcolor == "" || bgcolor == "transparent" || bgcolor == "rgba(0, 0, 0, 0)")
-		{
-			testBlocks[i].style.backgroundColor = "#"+((1<<24)*Math.random()|0).toString(16);
-		}
-	}
-</script>
 </body>
 </html>
