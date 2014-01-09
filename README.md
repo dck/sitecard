@@ -1,4 +1,4 @@
 sitecard
 ========
 
-The static site for our group
+The static site materials
